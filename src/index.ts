@@ -43,7 +43,7 @@ const PruebaCorreos = async () =>{
         }
         const data : MailInterface = {
             from: "firmenti@flising.com",
-            to:   "villawolfdiego@gmail.com",
+            to:   "jvillalobos@firmenti.com,joseluis.villalobos1805@gmail.com",
             subject: "Mensaje desde NODE",
             text: emailTemplate.text,
             html: emailTemplate.html,
